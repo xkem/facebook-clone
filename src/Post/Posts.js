@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+
+
 import Post from './Post'
 import Stories from './Stories';
+import NewPost from './PostNew';
 
 const Posts = (props) => {
   return (
-    <div class="col posts vh">
+    <div class="col posts vh space-between">
       <Stories></Stories>
+      <NewPost></NewPost>
       <Post></Post>
       <Post></Post>
       <Post></Post>

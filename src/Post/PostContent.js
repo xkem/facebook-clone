@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
+
+import PostHeader from './PostHeader';
 
 const PostContent = (props) => {
   return (
     <div className="col post-content" >
+      <PostHeader></PostHeader>
       <div className="col post-text" >
       {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, \
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \
@@ -13,9 +15,7 @@ const PostContent = (props) => {
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in \
                     culpa qui officia deserunt mollit anim id est laborum.'}
       </div>
-      <div className="col post-image" >
-        <img  src={require(`./square.png`)}></img>
-      </div>
+      <img className="col" src={require(`./landscape.jpg`)}></img>
     </div>
   );
 }

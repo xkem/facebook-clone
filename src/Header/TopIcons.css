@@ -1,0 +1,17 @@
+.col.top-icons{
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col.top-icon{
+    margin: 0px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.icon-selected{
+  display: flex;
+  border-bottom: solid 1px blue;
+}
+  

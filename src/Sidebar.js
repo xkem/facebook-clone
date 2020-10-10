@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Sidebutton from './Sidebutton';
+
+
+
+import Sidebutton from './Button/Sidebutton';
+import Divider from './Divider';
 
 const Sidebar = (props) => {
   return (
-      <div class="vh sidebar">
+      <div id={props.sidebar_id }class="vh sidebar">
         <Sidebutton></Sidebutton>
         <Sidebutton></Sidebutton>
         <Sidebutton></Sidebutton>
         <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        ------------------------
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
-        <Sidebutton></Sidebutton>
+        <Divider></Divider>
         <Sidebutton></Sidebutton>
         <Sidebutton></Sidebutton>
         <Sidebutton></Sidebutton>

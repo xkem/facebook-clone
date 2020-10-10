@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import PostComment from './PostComment';
-import PostCommentBox from './PostCommentBox';
+
+import PostComment from './Comment';
+import CommentNew from './CommentNew';
 
 const PostComments = (props) => {
   return (
-    <div className="col post-comments" >
-      <PostCommentBox></PostCommentBox>
+    <div className="post-comments content-pad" >
+      <CommentNew></CommentNew>
       <PostComment></PostComment>
       <PostComment></PostComment>
     </div>
