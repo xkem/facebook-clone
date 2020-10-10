@@ -226,14 +226,28 @@ img.side-icon{
   padding: 5px;
 }
 
+.icon-circle{
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0px 9px;
+  max-width: 100%;
+  display: flex;
+  background-color: #3e4042;
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  border-color: transparent;
+  place-items: center;
+  margin: 0px 5px;
+}
 
-.input-top{
-
+.icon-circle i{
+  font-size: large;
 }
 
 .comment-input-container {
   flex-grow: 0;
-    flex-shrink: 0;
+  flex-shrink: 0;
   padding: 0px 12px;
   max-width: 100%;
   display: flex;
@@ -349,6 +363,9 @@ i{
   align-items: center;
 }
 
+.end{
+  justify-content: flex-end;
+}
 
 
 .space-between{
@@ -382,5 +399,8 @@ i{
 @media screen and (max-width: 900px) {
   #right-sidebar {
       display: none !important;
+  }
+  .current-user{
+    display: none !important;
   }
 }
